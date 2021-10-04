@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Requires `python3`, `beautifulsoup4`, `selenium`, `webdriver-manager`  libraries.
+Requires `python3` and `beautifulsoup4`, `selenium`, `webdriver-manager`  libraries.
 
 ```sh
 pip install beautifulsoup4
