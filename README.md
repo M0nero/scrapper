@@ -41,13 +41,14 @@ python test.py
 
 ```python
 sc = Scrapper()
-sc.grab("bitcoin", 3)
+sc.grab("bitcoin", 2)
 ```
 
 ### Usage example:
 
 ```python
-[{'title': "Bitfarms: BITF's Reduced Mining Efficiency And Our Updated Valuation Framework", 'source': 'Seeking Alpha', 'time': '2 hours ago'}, {'title': 'Bitcoin S2F Creator PlanB Thinks BTC Will Reach $135k By December', 'source': 'NewsBTC', 'time': '2 hours ago'}, {'title': 'Bitcoin Surpasses Facebook In Market Capitalization', 'source': 'Bitcoin Magazine', 'time': '2 hours ago'}]
+[{'title': 'Why Bitcoin, Ethereum and Dogecoin Surged This Week', 'paragraph': 'Major coins increased in value this week. ', 'source': 'Decrypt', 'time': 'an 
+hour ago'}, {'title': 'Why This Executive Predicted Bitcoin Will Be Legal Tender In 5 Countries By 2022', 'paragraph': 'Bitcoinist has followed closely the rollout of The Bitcoin Law in El Salvador. Via the National Congress, this country gave BTC the status of legal tender, the implications of this action are still under scrutiny but point toward a new phase of adoption for the crypto industry. R...', 'source': 'Bitcoinist.com', 'time': 'an hour ago'}]
 ```
 
 ## License
