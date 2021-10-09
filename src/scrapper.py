@@ -34,6 +34,7 @@ class Scrapper:
             news.append(
                 {
                     'title': item.find("h3", class_="sc-1q9q90x-0").get_text(),
+                    'paragraph': item.find("p", class_="ddtKCV").get_text(),
                     'source': item.find("span", class_="svowul-7").get_text(),
                     'time': item.find("span", class_="hykWbK").get_text()
                 }
