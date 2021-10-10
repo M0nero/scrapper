@@ -44,4 +44,4 @@ class Scrapper:
     def grab(self, crypto, N):
         URL = 'https://coinmarketcap.com/currencies/' + crypto + '/news/'
         page = self.__get_html(URL, N)
-        print(self.__get_content(page, N))
+        self.__get_content(page, N)
