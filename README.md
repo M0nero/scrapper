@@ -38,7 +38,7 @@ python test.py
 ```
 
 ## Examples
-
+the `grab` method has two arguments: cryptocurrency and the number of last news 
 ```python
 sc = Scrapper()
 sc.grab("bitcoin", 2)
